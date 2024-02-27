@@ -1,0 +1,15 @@
+# VSCode
+/.vscode/
+
+# Jetbrains IDEs
+/.idea/
+
+# Package Managers
+/node_modules/
+
+# TypeScript
+/dist/
+
+# OS Files
+.DS_Store
+Thumbs.db

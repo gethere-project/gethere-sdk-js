@@ -1,0 +1,40 @@
+{
+  "name": "gethere-sdk-js",
+  "version": "0.1.0",
+  "license": "LGPL-3.0-only",
+  "description": "A JavaScript SDK for the gethere server API. Part of the gethere project.",
+  "keywords": [
+    "gethere",
+    "js-sdk",
+    "ts"
+  ],
+  "author": {
+    "name": "Krystian Wiecheć",
+    "email": "krystian.wiechec.pub@krystejj.me",
+    "url": "https://github.com/krystejj"
+  },
+  "homepage": "https://github.com/krystejj/gethere-sdk-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krystejj/gethere-sdk-js.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "tsc && yarn publish",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
